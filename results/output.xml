@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231110 02:36:53.283" rpa="false" schemaversion="4">
+<suite id="s1" name="Test-Robot" source="D:\Code\test-robot">
+<suite id="s1-s1" name="Test2" source="D:\Code\test-robot\test2.robot">
+<test id="s1-s1-t1" name="This is a sample testcase" line="8">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>http://google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231110 02:36:53.529" level="INFO">Opening browser 'chrome' to base url 'http://google.com'.</msg>
+<status status="PASS" starttime="20231110 02:36:53.528" endtime="20231110 02:37:00.361"/>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231110 02:37:00.361" endtime="20231110 02:37:02.544"/>
+</kw>
+<doc>Googletest</doc>
+<tag>regression</tag>
+<status status="PASS" starttime="20231110 02:36:53.527" endtime="20231110 02:37:02.544"/>
+</test>
+<status status="PASS" starttime="20231110 02:36:53.335" endtime="20231110 02:37:02.546"/>
+</suite>
+<status status="PASS" starttime="20231110 02:36:53.304" endtime="20231110 02:37:02.550"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test-Robot">Test-Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test2">Test-Robot.Test2</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231110 02:36:53.523" level="ERROR">Error in file 'D:\Code\test-robot\test2.robot' on line 3: Invalid resource file extension ''. Supported extensions are '.json', '.resource', '.rest', '.robot', '.rsrc', '.rst', '.tsv' and '.txt'.</msg>
+</errors>
+</robot>
