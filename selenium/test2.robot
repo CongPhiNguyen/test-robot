@@ -1,6 +1,5 @@
 *** Settings ***
 Library           Selenium2Library
-Resource          \
 
 *** Variables ***
 
@@ -10,6 +9,4 @@ This is a sample testcase
     [Tags]   regression
     Open Browser   http://google.com   chrome
     Close Browser
-
-*** Keywords ***
 
